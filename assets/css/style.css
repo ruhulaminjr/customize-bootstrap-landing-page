@@ -10746,5 +10746,39 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  background: #fff;
+  padding: 0.7rem 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  color: #fff;
+}
+.btn-rounded span {
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  background: #9926f0;
+  border-radius: 50%;
+}
+
+.menu-bg {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.menu-bg .navbar-nav {
+  margin-right: 2rem;
+}
+.menu-bg .navbar-nav a {
+  color: #fff !important;
+  font-size: 1rem;
+  padding: 0.95rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

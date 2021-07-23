@@ -1,0 +1,23 @@
+@use "../custom" as *;
+@use "./mixins" as *;
+
+.btn-rounded {
+  background: $white;
+  padding: 0.7rem 1rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &:hover {
+    @include gradient;
+    color: $white;
+  }
+  span {
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    background: $primary;
+    border-radius: 50%;
+  }
+}
