@@ -8,12 +8,11 @@
     <!-- font awesome css  -->
     <!-- bootstrap stylesheet  -->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
   </head>
   <body>
     <!-- navbar started here  -->
-    <nav class="navbar navbar-expand-lg navbar-dark menu-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark menu-bg shadow">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="images/logo.png" alt=""
@@ -42,11 +41,59 @@
             <a class="nav-link" href="#">portfolio</a>
             <a class="nav-link" href="#">contact</a>
           </div>
-          <button class="btn-rounded rounded-pill d-sm-none d-lg-flex">+015 646 454 <span><i class="fas fa-phone-alt"></i></span></button>
+          <button class="btn-rounded rounded-pill d-sm-none d-lg-flex">
+            +015 646 454 <span><i class="fas fa-phone-alt"></i></span>
+          </button>
         </div>
       </div>
     </nav>
     <!-- navbar end here  -->
+    <!-- Intro section start Here  -->
+    <section id="intro" class="intro-section">
+      <div class="container">
+        <div class="row text-light">
+          <div class="col-md-6">
+            <h1 class="display-2">
+              <span class="display-2 intro-text">Hey!, I'm Ruhul</span>
+            </h1>
+            <p class="intro-text-p lg-base lead">
+              this is a multi-purpose responsive layout created with bootstrap
+              v5. (here your can place your description text)
+            </p>
+            <button class="btn-rounded rounded-pill d-sm-none d-lg-flex">
+              +015 646 454 <span><i class="fas fa-arrow-right"></i></span>
+            </button>
+          </div>
+          <div class="col-md-6 text-end position-relative">
+            <img
+              src="images/arts/intro-section-illustration.png"
+              alt=""
+              class="img-fluid"
+            />
+            <span
+              class="
+                position-absolute
+                top-50
+                start-50
+                translate-middle
+                play-btn
+              "
+              ><i class="fas fa-play-circle 9x"></i>
+              <span class="border-animation border1"></span>
+              <span class="border-animation border2"></span>
+            </span>
+           
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,224L48,224C96,224,192,224,288,192C384,160,480,96,576,101.3C672,107,768,181,864,197.3C960,213,1056,171,1152,170.7C1248,171,1344,213,1392,234.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
     <!-- bootstrap script  -->
     <script src="assets/bootstrap.bundle.min.js"></script>
   </body>
